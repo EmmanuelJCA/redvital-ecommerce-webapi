@@ -16,7 +16,7 @@
 
 ## Lift the database
 ```bash
-$ docker-compose -f docker-compose.yaml --env-file .env up --build
+$ docker-compose -f docker-compose.yaml --env-file .env up --build -d
 ```
 
 ## Installation

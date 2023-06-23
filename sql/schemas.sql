@@ -1,4 +1,4 @@
-\connect dbname;
+\connect redvital;
 CREATE SCHEMA IF NOT EXISTS geolocation;
 CREATE SCHEMA IF NOT EXISTS person;
 CREATE SCHEMA IF NOT EXISTS product;
