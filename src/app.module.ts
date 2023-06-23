@@ -5,6 +5,7 @@ import { CommonModule } from './common/common.module';
 import { UserModule } from './user/user.module';
 import { GeolocationModule } from './geolocation/geolocation.module';
 import { AuthModule } from './auth/auth.module';
+import { ProductModule } from './product/product.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { AuthModule } from './auth/auth.module';
     UserModule,
     GeolocationModule,
     AuthModule,
+    ProductModule,
   ],
   controllers: [],
   providers: [],
