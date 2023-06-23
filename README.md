@@ -7,11 +7,12 @@
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable</p>
 
-# BaseAPI
+# Redvital E-commerce API
 
 ## Environment Variables
 1. Clone the .env.template file and rename it to .env.
 2. Change environment variables.
+3. Change dbname in sql/schemmas.sql
 
 ## Lift the database
 ```bash

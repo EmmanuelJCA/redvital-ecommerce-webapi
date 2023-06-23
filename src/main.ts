@@ -23,8 +23,8 @@ async function bootstrap() {
 
   // Swagger Config
   const config = new DocumentBuilder()
-    .setTitle('Base RESTful API')
-    .setDescription('Base endpoints')
+    .setTitle('Redvital ecommerce RESTful API')
+    .setDescription('Redvital ecommerce endpoints')
     .setVersion('1.0')
     .addSecurity('bearer', { type: 'http', scheme: 'bearer' })
     .build();
